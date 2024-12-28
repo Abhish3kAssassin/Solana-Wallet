@@ -1,0 +1,182 @@
+/* General App Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://wallpapercave.com/wp/wp9800906.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styling */
+.App-header {
+  background-color: rgba(40, 44, 52, 0.8); /* Semi-transparent background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Button Styling */
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+/* Input Field Styling */
+input, textarea {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  width: 60%;
+}
+
+/* Transition Page Styling */
+.transition-page {
+  animation: fadeIn 2s ease-in-out;
+  text-align: center;
+  padding: 20px;
+  color: white; /* Ensures all text is visible */
+}
+
+/* Seed Box Styling */
+.seed-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 80%;
+  text-align: left;
+}
+
+.seed-box p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* Buttons Section Styling */
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard Styling */
+.dashboard {
+  background: url('./login.JPG') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard h1 {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.dashboard input {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Container for Content */
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better readability */
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+/* Balance Display */
+.seed-box p strong {
+  color: #333;
+  font-weight: bold;
+}
+
+.seed-box p:last-child {
+  color: #007bff; /* Highlight the balance in blue */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Home Page Styling */
+.container h2 {
+  margin: 15px 0;
+}
+
+.container button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.container button:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
