@@ -21,7 +21,7 @@ Solana Wallet is a powerful and user-friendly cryptocurrency wallet built for ma
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/solana-wallet.git
+   git clone https://github.com/Abhish3kAssassin/Solana-Wallet.git
    cd solana-wallet
 2.	Install dependencies:
    npm install
