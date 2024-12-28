@@ -1,0 +1,63 @@
+{
+  "name": "solana-wallet",
+  "version": "1.0.0",
+  "description": "Test App",
+  "author": "Abhishek Rahang",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "react-scripts start", 
+    "build": "react-scripts build",
+    "electron-start": "electron .",
+    "electron-build": "npm run build && electron-builder" 
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "com.test.app",
+    "productName": "TestApp",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*",
+      "main.js"
+    ],
+    "mac": {
+      "target": "dmg",
+      "icon": "icon.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "icon.png"
+    }
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "bip39": "^3.1.0",
+    "buffer": "^6.0.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^4.2.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
